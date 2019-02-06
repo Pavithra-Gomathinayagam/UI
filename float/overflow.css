@@ -1,0 +1,32 @@
+body{
+    border:2px solid black;
+    margin:10;
+  }
+  div{
+  border-style: groove;
+  }
+  .divexpand{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+        
+  }
+  .divhide{
+  
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+    height: 50px;
+    overflow:hidden;
+  }
+  .divscroll{
+    
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+    height: 50px;
+    overflow: auto;
+  }

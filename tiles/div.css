@@ -1,0 +1,100 @@
+body{
+    width:40%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  /* height:100%; */
+ 
+}
+div{
+    border:1px solid violet;
+}
+
+.red{
+    flex-basis:200px;
+    height: 200px;
+    background-color:red;
+    flex-grow:3;
+    flex-shrink:1;
+}
+
+.blue{
+    flex-basis:200px;
+    height:200px;
+    background-color:blue;
+    flex-grow:1;
+    flex-shrink:3;
+}
+.yellow{
+    flex-basis:200px;
+    background-color:yellow;
+    flex-grow:1;
+    flex-shrink:3;
+    height:200px;
+}
+
+.green{
+    flex-basis:200px;
+    background-color:green;
+    flex-grow:3;
+    flex-shrink:1;
+    height:200px;
+}
+.pink{
+    flex-basis:200px;
+    background-color:pink;
+    flex-grow:3;
+    flex-shrink:1;
+    height:200px;
+}
+.group{
+    display: flex;
+    flex-wrap:wrap;
+    flex-basis:200px;
+    flex-grow:1;
+    flex-shrink:3;
+    
+    
+}
+.wrapblue{
+    width:111.3px;
+    height:98px;
+    background-color:blue;
+}
+.wrapred{
+    /* height:0%; */
+    width:111.3px;
+    height:98px;
+    background-color:red;
+}
+.wrapgreen{
+    /* height:5%; */
+    width:111.3px;
+    height:98px;
+    background-color:green;
+}
+.wrapyellow{
+    /* height:25%; */
+    width:111.3px;
+    height:98px;
+    background-color:yellow;
+}
+/* .column{
+    display:flex;
+    flex-direction: column;
+}
+.groupblue{
+    flex-basis:200px;
+    hei
+    flex-grow:3;
+    flex-shrink:1;
+    background-color:blue;
+}
+.groupred{
+    flex-basis:200px;
+    flex-grow:1;
+    flex-shrink:3;
+    background-color: black;
+} */

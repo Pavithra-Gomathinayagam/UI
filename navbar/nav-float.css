@@ -1,0 +1,123 @@
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      height:45px;
+      background-color: dodgerblue;
+    }
+    
+    li {
+      float: right;
+      margin-right:20px;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+        font-weight:bold;
+        font-family:sans-serif;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content,.dropdown:hover .arrow-up{
+      display: block;
+    }
+    .navbar input[type=text] {
+      padding: 6px;
+      margin-top: 7px;
+      border: none;
+      font-size: 17px;
+      width:600px;
+    }
+    
+    hr{
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:-0.3px;
+        margin-bottom:-0.3px;
+        opacity: 0.2;
+    }
+    #badge1 {
+       position:relative;
+       color:white;
+    }
+    #badge1[data-badge]:after {
+       content:attr(data-badge);
+       position:absolute;
+       top:-8px;
+       right:-7px;
+       font-size:.8em;
+       background:red;
+       color:white;
+       width:15px;height:15px;
+       text-align:center;
+       line-height:16px;
+       border-radius:50%;
+       box-shadow:0 0 1px #333;
+        
+    }
+    .search { 
+      position: relative; 
+     left:9%;
+     display:inline;
+    }
+    .fa-search { 
+      position: absolute;
+      top: -6px;
+      font-size: 18px;
+      opacity:0.3;
+      border-left:2px solid black;
+      right:3%;
+      padding-left:9px;
+      line-height:1.75;
+    }
+    i{
+       color:dodgerblue;
+    }
+    
+    .fa-angle-down{
+      color:white;
+    }
+    
+    .arrow-up{
+    width:0px;
+    height:0px;
+    border-left:8px solid transparent;
+    border-right:8px solid transparent;
+    border-bottom:8px solid white;
+    margin-top:-9px;
+    display:none;
+    margin-left: 30px;
+    }

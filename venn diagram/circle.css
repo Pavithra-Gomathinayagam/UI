@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    margin-left:500px;
+    margin-top:50px;
+    /* border:1px solid black; */
+    height:400px;
+    width:400px;
+}
+.circle{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+    display: inline-block;
+    position: absolute;
+}
+.circle1{
+    background-color:green;
+    margin-left: 40%;
+    z-index:2;
+}
+.circle2{
+    background-color: yellow;
+    margin-top: 35%;
+    margin-left: 20%;
+    z-index: 3
+}
+.circle3{
+    background-color:palevioletred;
+    margin-right: 30%;
+    z-index: 1;
+}
